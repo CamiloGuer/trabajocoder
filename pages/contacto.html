@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="../img/Artboard 1 copia 2.png" alt="Logo" height="80px">
+        <h2>Casa de arte y aparte</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main class="centro">
+        <section class="boxform">
+            <h2 class="contenido">Contactanos</h2>
+            <form class="formulario" action="enviar.php" method="post" enctype="text/plain">
+                <fieldset>
+                    <label class="labels" for="nombre">Nombre y Apellido</label>
+                    <input class="inputs" type="text" placeholder="nombre completo" required>
+                    <label class="labels" for="Motivo">Motivo del contacto</label>
+                    <input class="inputs" type="text" placeholder="Reserva/otro">
+                    <label class="labels" for="Telefono">Telefono</label>
+                    <input class="inputs" type="number" placeholder="tu telefono">
+                    <label class="labels" for="Correo">Correo</label>
+                    <input class="inputs" type="mail" placeholder="Mail">
+                    <label class="labels" for="Info">Mas informacion</label><br>
+                    <textarea class="area" name="" id="" cols="30" rows="10" placeholder="Informacion relevante. En caso de reserva, escribir: numero de personas, fecha, y hora de la reserva. O contactenos en nuestras redes(recomendado)"></textarea>
+                    <br>
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Borrar">
+                </fieldset>
+            </form>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3890.9686342703963!2d-56.18873639369772!3d-34.90891940472764!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb59667f8d23407df!2sLa%20Cretina!5e0!3m2!1ses-419!2suy!4v1649699592028!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <br>
+    </main>
+    <br>
+    <footer>
+        <a target="_blank" href="https://www.instagram.com/lacretinacasa/?hl=es"><img src="../img/insta.png" alt="logo instagram" height="30px"></a>
+        <a target="_blank" href="https://es-la.facebook.com/lacretinacasa/"><img src="../img/facebook.png" alt="logo facebook" height="30px"></a>
+        <p>Horario de apertura: Martes a Sabados de 18pm a 3am.</p>
+    </footer>
+</body>
+</html>
