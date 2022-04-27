@@ -231,8 +231,11 @@ footer p{
             grid-column: 1/3;
             grid-row: 6/7;
         }
-
-}
+        
+        }
 .mapa{
     width: 100%;
+}
+.menucarta:hover{
+    transform: scale(2);
 }
