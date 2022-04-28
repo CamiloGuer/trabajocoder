@@ -238,4 +238,5 @@ footer p{
 }
 .menucarta:hover{
     transform: scale(2.3);
+    transition: all 1.5s;
 }
