@@ -236,11 +236,3 @@ footer p{
 .mapa{
     width: 100%;
 }
-.menucarta:hover{
-    transform: scale(2.3);
-    transition: all 2s;
-}
-.tabla:hover{
-    transform: scale(1.5);
-    transition: all 1s;
-}
