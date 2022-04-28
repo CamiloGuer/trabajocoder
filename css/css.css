@@ -236,3 +236,6 @@ footer p{
 .mapa{
     width: 100%;
 }
+.menucarta:hover{
+    transform: scale(2.3);
+}
