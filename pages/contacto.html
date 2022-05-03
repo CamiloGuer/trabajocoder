@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a3dea064bd.js" crossorigin="anonymous"></script>
     <title>Contacto</title>
 </head>
 <body>
     <header>
         <img src="../img/Artboard 1 copy.png" alt="Logo" height="120px">
-        <h2>Casa de arte y aparte</h2>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/eventos.html">Eventos</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">La Cretina</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Casa de arte y aparte
+                    </span>
+                </div>
+            </div>
         </nav>
     </header>
     <br>
@@ -47,10 +66,18 @@
         <br>
     </main>
     <br>
-    <footer>
-        <a target="_blank" href="https://www.instagram.com/lacretinacasa/?hl=es"><img src="../img/insta.png" alt="logo instagram" height="30px"></a>
-        <a target="_blank" href="https://es-la.facebook.com/lacretinacasa/"><img src="../img/facebook.png" alt="logo facebook" height="30px"></a>
-        <p>Horario de apertura: Martes a Sabados de 18pm a 3am.</p>
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <div class="container pt-4">
+            <section class="mb-4">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://es-la.facebook.com/lacretinacasa/" role="button" data-mdb-ripple-color="dark"><i class="fa-brands fa-facebook"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fa-brands fa-whatsapp"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/lacretinacasa/?hl=es" role="button" data-mdb-ripple-color="dark"><i class="fa-brands fa-instagram"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2022 Copyright:<a class="text-dark" href="">lacretinacasa@gmail.com</a></div>
     </footer>
 </body>
 </html>

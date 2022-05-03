@@ -7,7 +7,7 @@
     color: white;
 }
 .contenido{
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -16,65 +16,6 @@
     text-align: center;
     font-size: 24px;
     margin: 15px;
-}
-/* header{
-    background-color: white;
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    justify-items: center;
-    padding: 0;
-    margin-bottom: 0;
-
-} */
-/* header li{
-    color: white;
-    display: inline-block;
-    text-align: center;
-}
-header li a:link{   
-    color: white;
-    padding: 8px;
-    background-color: rgba(0, 0, 0, 0.849);
-}
-header li a:visited{
-    color: white;
-    background-color: black;
-}
-header li a:hover{
-    color: black;
-    background-color: white;
-    text-decoration: underline;
-    border: 3px black solid;
-    border-radius: 3px;
-}
-header h2{
-    padding: 12px;
-    text-shadow: 3px 3px 5px;
-    font-family: Oswald, sans-serif
-} */
-.sectabla{
-    display: flex;
-    justify-content: center;
-}
-.tabla{
-    border-collapse: collapse;
-    margin: 10px;
-}
-td{
-    border: solid 2px rgba(255, 255, 255, 0.637);
-    padding: 5px;
-}
-th{
-    border: solid 2px black;
-    padding: 5px;
-    background-color: white;
-    color: black;
-}
-th:hover{
-    background-color: #aaa;
-    cursor: pointer;
 }
 .boxform{
     width: 75%;
@@ -124,20 +65,6 @@ th:hover{
     color: white;
     border: solid 2px white;
     border-radius: 5px;
-}
-footer{
-    margin: 5px;
-    padding: 5px;
-    display: flex;
-}
-footer p{
-    align-self: center;
-}
-.seceventos{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
 }
 .galeria{
     min-height: 600px;
@@ -191,10 +118,6 @@ footer p{
     grid-row: 3/4;
     background-image: url(../tragos/comi.png);
 }
-.seceventos{
-    display: flex;
-}
-
 @media only screen and (max-width:768px){
     .galeria{
         grid-template-columns: repeat(3, 1fr);
@@ -237,10 +160,6 @@ footer p{
     width: 100%;
 }
 .menucarta:hover{
-    transform: scale(2.3);
+    transform: scale(2);
     transition: all 1.5s;
-}
-.tabla:hover{
-    transform: scale(1.5);
-    transition: all 1s;
 }
