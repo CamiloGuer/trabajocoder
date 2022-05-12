@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+$color1: rgb(44, 44, 44);
+
 .centro{
     background-color: rgba(0, 0, 0, 0.849);
     color: white;
@@ -40,7 +43,7 @@
     width: 60%;
     margin: 0.5rem;
     padding: 0.5rem;
-    background-color: #121212;
+    background-color: $color1;
     color: #fff;
     border: none;
     border-bottom: solid 1px white;
@@ -61,7 +64,7 @@
     cursor: pointer;
 }
 .boton:hover{
-    background-color: #020202;
+    background-color: $color1;
     color: white;
     border: solid 2px white;
     border-radius: 5px;
@@ -172,4 +175,17 @@
 .menucarta:hover{
     transform: scale(1.3);
     transition: all 1.5s;
+}
+div{
+    span{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
+nav{
+    div{
+        a{
+            font-weight: bold;
+        }
+    }
 }
