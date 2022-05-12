@@ -4,7 +4,7 @@
 }
 
 .centro {
-  background-color: rgba(0, 0, 0, 0.849);
+  background-color: rgb(22, 22, 22);
   color: white;
 }
 
@@ -46,7 +46,7 @@
   width: 60%;
   margin: 0.5rem;
   padding: 0.5rem;
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(22, 22, 22);
   color: #fff;
   border: none;
   border-bottom: solid 1px white;
@@ -71,7 +71,7 @@
 }
 
 .boton:hover {
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(22, 22, 22);
   color: white;
   border: solid 2px white;
   border-radius: 5px;

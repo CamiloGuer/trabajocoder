@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-$color1: rgb(44, 44, 44);
+$color1: rgb(22, 22, 22);
 
 .centro{
-    background-color: rgba(0, 0, 0, 0.849);
+    background-color: $color1;
     color: white;
 }
 .contenido{
