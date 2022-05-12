@@ -1,3 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.centro {
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+}
+
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.tituloin {
+  text-align: center;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.boxform {
+  width: 75%;
+  margin: 3rem auto;
+  background-color: rgba(0, 0, 0, 0.849);
+  padding: 1.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.formulario {
+  text-align: center;
+  margin: 10px;
+}
+
+.labels {
+  display: inline-block;
+  width: 60%;
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+}
+
+.inputs, .area {
+  width: 60%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #121212;
+  color: #fff;
+  border: none;
+  border-bottom: solid 1px white;
+  font-size: 1rem;
+}
+
+.area {
+  height: 5rem;
+  resize: none;
+}
+
+.inputs:focus, .area:focus {
+  outline: none;
+}
+
+.boton {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #020202;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+.galeria {
+  min-height: 600px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.img {
+  border: 2px solid white;
+  background-size: cover;
+  background-position: center;
+}
+
+.img1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-image: url(../tragos/gint.png);
+}
+
+.img2 {
+  grid-column: 2/3;
+  grid-auto-flow: 1/2;
+  background-image: url(../tragos/caipi.png);
+}
+
+.img3 {
+  grid-column: 3/5;
+  grid-row: 1/2;
+  background-image: url(../tragos/aceitunas.png);
+}
+
+.img4 {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background-image: url(../tragos/guarana.png);
+}
+
+.img5 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-image: url(../tragos/taco.png);
+}
+
+.img6 {
+  grid-template-columns: 4/5;
+  grid-row: 2/3;
+  background-image: url(../tragos/Untitled.png);
+}
+
+.img7 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-image: url(../tragos/gambas.png);
+}
+
+.img8 {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  background-image: url(../tragos/comi.png);
+}
+
+.menucarta {
+  height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .menucarta {
+    width: 100%;
+    height: auto;
+  }
+
+  .tabla {
+    overflow-x: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .img1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+
+  .img2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .img3 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+
+  .img5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .img6 {
+    grid-template-columns: 2/3;
+    grid-row: 5/6;
+  }
+
+  .img8 {
+    grid-column: 1/3;
+    grid-row: 6/7;
+  }
+}
+.mapa {
+  width: 100%;
+}
+
+.menucarta:hover {
+  transform: scale(1.3);
+  transition: all 1.5s;
+}
 
 /*# sourceMappingURL=estilos.css.map */
