@@ -34,6 +34,30 @@
   grid-row: 2/3;
 }
 
+.bordersass-1 {
+  border-width: 5px;
+  border-style: solid;
+  border-color: chartreuse;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bordersass-2 {
+  border-width: 10px;
+  border-style: solid;
+  border-color: chartreuse;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.bordersass-3 {
+  border-width: 15px;
+  border-style: solid;
+  border-color: chartreuse;
+  font-size: 48px;
+  font-weight: bold;
+}
+
 .centro {
   background-color: rgb(22, 22, 22);
   color: white;

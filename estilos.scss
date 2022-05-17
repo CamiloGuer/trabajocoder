@@ -15,6 +15,7 @@ $color4: rgb(69, 69, 148);
 $alto1: 400px;
 $alto2:100px;
 
+
 @mixin grid( $columnas , $filas , $espacio) {
     display: grid;
     grid-template-columns: repeat( $columnas, 1fr);
@@ -44,6 +45,15 @@ $alto2:100px;
     background-color: $color3;
     grid-column: 4/5;
     grid-row: 2/3;
+}
+@for $i from 1 through 3 {
+    .bordersass-#{$i} {
+        border-width: 5px * $i;
+        border-style: solid;
+        border-color: chartreuse;
+        font-size: 16px * $i;
+        font-weight: bold;
+}
 }
 
 .centro{
