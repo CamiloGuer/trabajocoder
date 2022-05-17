@@ -15,10 +15,14 @@ $color4: rgb(69, 69, 148);
 $alto1: 400px;
 $alto2:100px;
 
-.sassgal{
+@mixin grid( $columnas , $filas , $espacio) {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat( $columnas, 1fr);
+    grid-template-rows: repeat( $filas , 1fr);
+    gap: $espacio;
+}
+.sassgal{
+    @include grid( 4, 2, 0)
 }
 .imgsass1{
     width: ($var1) - ($var3) + ($var5*2);
