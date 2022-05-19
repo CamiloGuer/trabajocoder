@@ -74,9 +74,9 @@ $colores: (
     height: 500px;
     width: 500px;
 }
-@each $foto in paisaje , plato , leon {
+@each $foto in taller , jirafas , rap {
     .#{$foto}-icon {
-        background-image: url("../sasspics/#{$foto}.jpg");
+        background-image: url("../sasspics/#{$foto}.png");
         background-size: cover;
         background-position: center;
     }
